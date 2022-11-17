@@ -1,4 +1,4 @@
-# Bored_Block_Cipher
+# Bored-Block-Cipher
 A simple Python based block cipher that utilizes my BoredHash hashing algorithm. Most likely not usable for anything you want to be cryptographically secure.
 
 Upon encryption, an optional time key can be generated and appended to your password for added security. The time key is only 3 characters and must be remembered with your password.
