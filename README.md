@@ -1,13 +1,13 @@
 # StreamCrypt
 
-StreamCrypt is a lightweight, Python-based stream cipher encryption tool designed for educational purposes and simple encryption tasks. It utilizes BLAKE3 for hashing and a unique keystream generation method to encrypt and decrypt data efficiently. StreamCrypt showcases a novel approach to keystream generation that combines cryptographic best practices with performance considerations.
+StreamCrypt is a lightweight, Python-based stream cipher encryption tool designed for educational purposes and simple encryption tasks. It utilizes BLAKE3 for hashing and keystream generation to encrypt and decrypt data efficiently. StreamCrypt showcases a novel approach to keystream generation that combines cryptographic best practices with performance considerations.
 
 ## Features
 
-- **BLAKE3 Hashing:** Leverages the cryptographic strength of BLAKE3 for secure keystream generation.
+- **BLAKE3 Hashing:** Leverages the cryptographic strength of BLAKE3.
 - **Unique Salt Generation:** Uses a combination of a randomly generated salt and the current Unix timestamp to ensure that each encryption operation is unique.
-- **Efficient Keystream Generation:** Implements a custom method for generating a keystream that balances cryptographic security with computational efficiency.
-- **Numpy-based XOR Operations:** Utilizes Numpy for fast and efficient bitwise operations, enhancing the tool's performance for large datasets.
+- **Efficient Keystream Generation:** Balances cryptographic security with computational efficiency by using the key derivation feature of BLAKE3.
+- **Numpy-based XOR Operations:** Utilizes Numpy for efficient bitwise operations, enhancing the tool's performance for large datasets.
 
 ## Getting Started
 
