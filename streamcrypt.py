@@ -1,12 +1,10 @@
-import hashlib
+import blake3
 import secrets
 import time
 import numpy as np
 
 def hasher(data):
-    hash_object = hashlib.sha256()
-    hash_object.update(data)
-    return hash_object.digest()
+    return blake3.blake3(data).digest()
 
 def generate_unique_salt(length):
     salt = secrets.token_bytes(length)
