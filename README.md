@@ -22,7 +22,7 @@ StreamCrypt is a lightweight, Python-based stream cipher encryption tool designe
 Clone the repository to your local machine:
 
 ```
-git clone https://github.com/yourusername/StreamCrypt.git
+git clone https://github.com/afkaf/StreamCrypt-Stream-Cipher.git
 ```
 
 Navigate to the project directory:
